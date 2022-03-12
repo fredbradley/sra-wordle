@@ -20,6 +20,8 @@ export const WORDS = [
     'verdon',
     'vaiani',
     'weaver',
+'purvis',
+'crane',
     'young',
     'scott',
     'smuts',
@@ -40,7 +42,7 @@ export const WORDS = [
     'flack',
     'frude', //Until Easter
     'guppy',
-    'hardy',
+    'hardy'
 
 
  /* 'which',
