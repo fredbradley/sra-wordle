@@ -64,17 +64,17 @@ export const StatsModal = ({
         gameStats={gameStats}
         numberOfGuessesMade={numberOfGuessesMade}
       />
-      <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
-        You can suggest a word for the list:{' '}
-        <a
-          rel="noreferrer"
-          target="_blank"
-          className="underline font-bold"
-          href="https://docs.google.com/forms/d/e/1FAIpQLSdt99k1MKEWQQpQqXlRlaZmV6MRT7NODPNdkMnjYS5uMHTwiA/viewform?usp=sf_link"
-        >
-          Fill in the form.
-        </a>
-      </p>
+      {/*<p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">*/}
+      {/*  You can suggest a word for the list:{' '}*/}
+      {/*  <a*/}
+      {/*    rel="noreferrer"*/}
+      {/*    target="_blank"*/}
+      {/*    className="underline font-bold"*/}
+      {/*    href="https://docs.google.com/forms/d/e/1FAIpQLSdt99k1MKEWQQpQqXlRlaZmV6MRT7NODPNdkMnjYS5uMHTwiA/viewform?usp=sf_link"*/}
+      {/*  >*/}
+      {/*    Fill in the form.*/}
+      {/*  </a>*/}
+      {/*</p>*/}
 
       {(isGameLost || isGameWon) && (
         <div className="mt-5 sm:mt-6 columns-2 dark:text-white">
